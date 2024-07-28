@@ -11,7 +11,7 @@ const root = createRoot(container);
 
 root.render(
   <Provider store={store}>
-    <GoogleOAuthProvider clientId="628744006206-6m9hv41r0t5l7jk83kq2fd5h74fr3iul.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="">
       <BrowserRouter>
         <App />
       </BrowserRouter>
